@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+
+<html class="scroll-smooth" lang="es"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Mucho Café — Café de Especialidad en Oaxaca</title>
+<meta content="Café de especialidad en Manuel Doblado 202D, Centro de Oaxaca. Clásicos de barra, Dirtys, cold brew y panecito." name="description"/>
+<!-- Tailwind CSS CDN -->
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<!-- Google Fonts: Epilogue & Newsreader -->
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400&amp;family=Newsreader:ital,opsz,wght@0,6..72,300;0,6..72,400;0,6..72,500;1,6..72,300;1,6..72,400;1,6..72,600&amp;display=swap" rel="stylesheet"/>
+<script>
+  tailwind.config = {
+    theme: {
+      extend: {
+        colors: {
+          brand: {
+            blue: '#1526b0',
+            darkBlue: '#0c166b',
+            cream: '#FAF8F5',
+            creamSoft: '#F4F0E8',
+            surface: '#FFFFFF',
+            ink: '#231F20',
+            muted: '#716C68',
+            line: '#E7E2D8'
+          }
+        },
+        fontFamily: {
+          sans: ['Epilogue', 'sans-serif'],
+          serif: ['Newsreader', 'Georgia', 'serif'],
+        }
+      }
+    }
+  }
+</script>
+<style>
+  ::selection {
+    background-color: #1526b0;
+    color: #ffffff;
+  }
+  .fine-line {
+    border-color: #E7E2D8;
+  }
+  .image-editorial {
+    transition: transform 0.6s cubic-bezier(0.16, 1, 0.3, 1), opacity 0.4s ease;
+  }
+  .image-editorial:hover {
+    transform: scale(1.02);
+  }
+</style>
+</head>
+<body class="bg-brand-cream text-brand-ink font-sans antialiased selection:bg-brand-blue selection:text-white">
+<!-- Micro announcement banner - calm & discrete -->
+<aside class="border-b fine-line bg-brand-cream text-[11px] uppercase tracking-[0.2em] text-brand-muted py-2.5 px-6 text-center">
+<div class="max-w-6xl mx-auto flex items-center justify-between">
+<span class="hidden sm:inline">Centro Oaxaca de Juárez</span>
+<span class="mx-auto sm:mx-0 font-medium">Manuel Doblado 202D • Lunes a Sábado 7:00 – 19:00 | Domingo 7:00 – 15:00</span>
+<span class="hidden md:inline font-serif italic lowercase tracking-normal text-xs">café de especialidad</span>
+</div>
+</aside>
+<!-- BEGIN: Minimal Header -->
+<header class="sticky top-0 z-40 bg-brand-cream/90 backdrop-blur-md border-b fine-line transition-all">
+<div class="max-w-6xl mx-auto px-6 md:px-12 h-20 flex items-center justify-between">
+<!-- Logo Minimalista -->
+<a class="flex items-center gap-3 group" href="#inicio">
+<img alt="Mucho Café" class="w-8 h-8 rounded-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAg-1Gxw8sGvtli9LYRJcL4hGe6txWfqDXeLK1QV6Ve5m71xIAFF-qh3Kx8FdbIEOoqQ0Zf20MWV-GsnuSQfRr1c-M2fTTP4s-56hEp0PfZjiyqjvaxArVqck0hlfkeuha7-486iUOfzX0V1Uv1whMGEjfPUAiVbz2F9URIzI_0NrPNopbTj1eIH5IaTu2xirxAlcS9yfziVV46Vrhpk2Rt8sspaieozUS2OykToAH-lrDrRMjlkCgwhX7eiW9gXRHZEw"/>
+<span class="font-extrabold tracking-tight text-lg text-brand-blue uppercase">Mucho Café</span>
+</a>
+<!-- Navegación Refinada -->
+<nav class="hidden md:flex items-center gap-10 text-xs uppercase tracking-[0.16em] text-brand-ink/80 font-medium">
+<a class="hover:text-brand-blue transition-colors" href="#menu">Menú</a>
+<a class="hover:text-brand-blue transition-colors" href="#galeria">Galería &amp; Momentos</a>
+<a class="hover:text-brand-blue transition-colors" href="#reconocimiento">Reconocimiento</a>
+<a class="hover:text-brand-blue transition-colors" href="#ubicacion">Cómo Llegar</a>
+</nav>
+<!-- Botón Esencial -->
+<div>
+<a class="text-xs uppercase tracking-[0.18em] font-semibold text-brand-blue border-b border-brand-blue pb-0.5 hover:text-brand-darkBlue hover:border-brand-darkBlue transition-all" href="#menu">
+          Ver Carta
+        </a>
+</div>
+</div>
+</header>
+<!-- END: Minimal Header -->
+<main>
+<!-- BEGIN: Hero Section -->
+<section class="pt-16 pb-20 md:pt-24 md:pb-32 border-b fine-line" id="inicio">
+<div class="max-w-6xl mx-auto px-6 md:px-12">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-center">
+<!-- Text Column -->
+<div class="lg:col-span-6 space-y-8">
+<div class="space-y-4">
+<span class="text-xs uppercase tracking-[0.25em] text-brand-blue font-semibold">
+                Oaxaca Centro • Barra de Café
+              </span>
+<h1 class="text-4xl sm:text-5xl md:text-6xl font-light text-brand-ink leading-[1.12] tracking-tight">
+                ¿Y si antes de chambear pasas por algo de 
+                <span class="block font-bold text-brand-blue font-sans mt-2 tracking-tighter text-5xl sm:text-6xl md:text-7xl">
+                  MUCHO CAFÉ?
+                </span>
+</h1>
+</div>
+<p class="font-serif italic text-xl md:text-2xl text-brand-muted font-light leading-relaxed max-w-lg">
+              ...todos los días en Manuel Doblado 202D.
+            </p>
+<p class="text-sm md:text-base text-brand-muted leading-relaxed max-w-md font-light">
+              Tueste local, extracciones cuidadas y el ritmo pausado del Centro. Disfruta un espresso tonic, un cold brew macerado por horas o nuestro panecito recién salido.
+            </p>
+<!-- Refined Single Action & Details -->
+<div class="pt-2 flex flex-wrap items-center gap-6">
+<a class="inline-block bg-brand-blue text-white text-xs uppercase tracking-[0.2em] font-semibold px-7 py-4 rounded-none hover:bg-brand-darkBlue transition-colors" href="#menu">
+                Explorar el Menú
+              </a>
+<a class="text-xs uppercase tracking-[0.2em] font-medium text-brand-ink/70 hover:text-brand-blue transition-colors" href="#ubicacion">
+                Encuéntranos en el mapa →
+              </a>
+</div>
+<div class="pt-6 border-t fine-line grid grid-cols-3 gap-6 text-left">
+<div>
+<span class="text-[10px] uppercase tracking-wider text-brand-muted block">Apertura</span>
+<span class="text-base font-semibold text-brand-ink">07:00 AM</span>
+</div>
+<div>
+<span class="text-[10px] uppercase tracking-wider text-brand-muted block">Guía Local</span>
+<span class="text-base font-semibold text-brand-ink">Top 3 Oaxaca</span>
+</div>
+<div>
+<span class="text-[10px] uppercase tracking-wider text-brand-muted block">Espacio</span>
+<span class="text-base font-semibold text-brand-ink">Pet Friendly</span>
+</div>
+</div>
+</div>
+<!-- Hero Image Column: Editorial presentation -->
+<div class="lg:col-span-6">
+<div class="relative bg-white p-3 md:p-5 border fine-line shadow-[0_20px_40px_-25px_rgba(0,0,0,0.06)]">
+<img alt="Mucho Café - Combo de café helado, vaso para llevar y muffin artesanal" class="w-full h-auto object-cover block" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBHjJZ9d5PK10qc44vD7S6ZLUThu5-NgIl55izKGTYss73If2tP4v5bq1nR3w-2T9ZNeojOcQEorBvwoHuSsR3F5hV1MtNenzYftirOZIvJXR06Hzm9x9erL9hoKiJ3766uJY9FazD-jEk7ClsfmWGewFsFVHohDRjnT59T2CfyRKa_pPqKELSDNgpAqPlI68GW39Axo2ueBXDqybYLEs1azlCEeBI-OgEmFPRtvBaEHJPanLlZHewr4yfNXCpuRA5yBg"/>
+<div class="mt-4 pt-3 border-t fine-line flex items-center justify-between text-[11px] text-brand-muted">
+<span class="font-serif italic">El match perfecto — cafecito con pan</span>
+<span class="uppercase tracking-widest text-[10px]">C. Manuel Doblado 202D</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- END: Hero Section -->
+<!-- BEGIN: Minimal Menu Section -->
+<section class="py-24 md:py-32 border-b fine-line bg-brand-surface" id="menu">
+<div class="max-w-5xl mx-auto px-6 md:px-12">
+<!-- Header del Menú -->
+<div class="text-center max-w-xl mx-auto mb-20 space-y-3">
+<span class="text-xs uppercase tracking-[0.3em] text-brand-blue font-semibold block">Carta de Especialidad</span>
+<h2 class="text-3xl md:text-4xl font-light text-brand-ink tracking-tight">Menú de todos los días</h2>
+<p class="font-serif italic text-brand-muted text-base md:text-lg">Simple, honesto y preparado al momento</p>
+</div>
+<!-- 2 Column Editorial Layout -->
+<div class="grid grid-cols-1 md:grid-cols-2 gap-x-16 gap-y-16">
+<!-- Columna 1: Tradición & Fríos -->
+<div class="space-y-12">
+<!-- Bloque Tradicional -->
+<div>
+<div class="flex items-baseline justify-between border-b fine-line pb-3 mb-6">
+<h3 class="text-xs uppercase tracking-[0.2em] font-semibold text-brand-ink">Bebidas Tradicionales</h3>
+<span class="text-[10px] uppercase tracking-widest text-brand-muted">Caliente / Frío</span>
+</div>
+<div class="space-y-6">
+<div class="flex items-baseline justify-between">
+<div>
+<h4 class="text-sm font-semibold text-brand-ink">Espresso</h4>
+<p class="text-xs text-brand-muted font-serif italic mt-0.5">Shot doble concentrado y balanceado</p>
+</div>
+<div class="text-sm font-semibold text-brand-ink tracking-tight">$25</div>
+</div>
+<div class="flex items-baseline justify-between">
+<div>
+<h4 class="text-sm font-semibold text-brand-ink">Americano</h4>
+<p class="text-xs text-brand-muted font-serif italic mt-0.5">El compañero esencial de la mañana</p>
+</div>
+<div class="text-sm font-semibold text-brand-ink tracking-tight">$30 <span class="text-brand-muted font-normal text-xs">/ $35</span></div>
+</div>
+<div class="flex items-baseline justify-between">
+<div>
+<h4 class="text-sm font-semibold text-brand-ink">Latte</h4>
+<p class="text-xs text-brand-muted font-serif italic mt-0.5">Leche finamente texturizada y espresso</p>
+</div>
+<div class="text-sm font-semibold text-brand-ink tracking-tight">$40 <span class="text-brand-muted font-normal text-xs">/ $45</span></div>
+</div>
+<div class="flex items-baseline justify-between">
+<div>
+<h4 class="text-sm font-semibold text-brand-ink">Capuchino</h4>
+<p class="text-xs text-brand-muted font-serif italic mt-0.5">Espuma sedosa, cuerpo denso</p>
+</div>
+<div class="text-sm font-semibold text-brand-ink tracking-tight">$35 <span class="text-brand-muted font-normal text-xs">/ $40</span></div>
+</div>
+</div>
+</div>
+<!-- Bloque Fríos & Casa -->
+<div>
+<div class="flex items-baseline justify-between border-b fine-line pb-3 mb-6">
+<h3 class="text-xs uppercase tracking-[0.2em] font-semibold text-brand-ink">Favoritos de Barra</h3>
+<span class="text-[10px] uppercase tracking-widest text-brand-muted">Especialidad</span>
+</div>
+<div class="space-y-6">
+<div class="flex items-baseline justify-between">
+<div>
+<div class="flex items-center gap-2">
+<h4 class="text-sm font-semibold text-brand-blue">Espresso Tonic</h4>
+<span class="text-[10px] uppercase tracking-widest font-serif italic text-brand-muted">5.0★</span>
+</div>
+<p class="text-xs text-brand-muted font-serif italic mt-0.5">Agua tónica, shot de espresso, toque cítrico</p>
+</div>
+<div class="text-sm font-semibold text-brand-blue tracking-tight">$55</div>
+</div>
+<div class="flex items-baseline justify-between">
+<div>
+<h4 class="text-sm font-semibold text-brand-ink">Cold Brew</h4>
+<p class="text-xs text-brand-muted font-serif italic mt-0.5">Maceración lenta por 16 horas en frío</p>
+</div>
+<div class="text-sm font-semibold text-brand-ink tracking-tight">$65</div>
+</div>
+<div class="flex items-baseline justify-between">
+<div>
+<h4 class="text-sm font-semibold text-brand-ink">Moka Tradición</h4>
+<p class="text-xs text-brand-muted font-serif italic mt-0.5">Cacao regional y espresso</p>
+</div>
+<div class="text-sm font-semibold text-brand-ink tracking-tight">$65 <span class="text-brand-muted font-normal text-xs">/ $70</span></div>
+</div>
+</div>
+</div>
+</div>
+<!-- Columna 2: Dirtys & Alternativas -->
+<div class="space-y-12">
+<!-- Bloque DIRTYS -->
+<div>
+<div class="flex items-baseline justify-between border-b fine-line pb-3 mb-6">
+<h3 class="text-xs uppercase tracking-[0.2em] font-semibold text-brand-ink">Dirtys de Autor</h3>
+<span class="text-[10px] uppercase tracking-widest text-brand-muted">Caliente / Frío</span>
+</div>
+<div class="space-y-6">
+<div class="flex items-baseline justify-between">
+<div>
+<h4 class="text-sm font-semibold text-brand-ink">Cajeta Dirty</h4>
+<p class="text-xs text-brand-muted font-serif italic mt-0.5">Dulzura suave de cajeta artesanal con espresso</p>
+</div>
+<div class="text-sm font-semibold text-brand-ink tracking-tight">$60 <span class="text-brand-muted font-normal text-xs">/ $65</span></div>
+</div>
+<div class="flex items-baseline justify-between">
+<div>
+<h4 class="text-sm font-semibold text-brand-ink">Chai Dirty</h4>
+<p class="text-xs text-brand-muted font-serif italic mt-0.5">Especias aromáticas chai complementadas con shot</p>
+</div>
+<div class="text-sm font-semibold text-brand-ink tracking-tight">$70 <span class="text-brand-muted font-normal text-xs">/ $75</span></div>
+</div>
+<div class="flex items-baseline justify-between">
+<div>
+<h4 class="text-sm font-semibold text-brand-ink">Agave Dirty</h4>
+<p class="text-xs text-brand-muted font-serif italic mt-0.5">Notas suaves de miel de agave y café de origen</p>
+</div>
+<div class="text-sm font-semibold text-brand-ink tracking-tight">$60 <span class="text-brand-muted font-normal text-xs">/ $65</span></div>
+</div>
+</div>
+</div>
+<!-- Bloque Refrescos y Tés -->
+<div>
+<div class="flex items-baseline justify-between border-b fine-line pb-3 mb-6">
+<h3 class="text-xs uppercase tracking-[0.2em] font-semibold text-brand-ink">Tés &amp; Refrescos</h3>
+<span class="text-[10px] uppercase tracking-widest text-brand-muted">Sin Café</span>
+</div>
+<div class="space-y-5">
+<div class="flex items-baseline justify-between">
+<span class="text-sm text-brand-ink font-light">Chai Caliente</span>
+<span class="text-sm font-semibold text-brand-ink">$60</span>
+</div>
+<div class="flex items-baseline justify-between">
+<span class="text-sm text-brand-ink font-light">Té Caliente (Selección)</span>
+<span class="text-sm font-semibold text-brand-ink">$25</span>
+</div>
+<div class="flex items-baseline justify-between">
+<span class="text-sm text-brand-ink font-light">Kombucha Artesanal</span>
+<span class="text-sm font-semibold text-brand-ink">$75</span>
+</div>
+<div class="flex items-baseline justify-between">
+<span class="text-sm text-brand-ink font-light">Felix Natural</span>
+<span class="text-sm font-semibold text-brand-ink">$55</span>
+</div>
+<div class="flex items-baseline justify-between">
+<span class="text-sm text-brand-ink font-light">San Pellegrino</span>
+<span class="text-sm font-semibold text-brand-ink">$50</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- Pie sutil de panadería -->
+<div class="mt-16 pt-8 border-t fine-line text-center">
+<p class="text-xs font-serif italic text-brand-muted">
+            Acompaña tu bebida con el panecito recién horneado del día disponible directamente en vitrina.
+          </p>
+</div>
+</div>
+</section>
+<!-- END: Minimal Menu Section -->
+<!-- BEGIN: Minimal Gallery & Brand Collage -->
+<section class="py-24 md:py-32 border-b fine-line bg-brand-cream" id="galeria">
+<div class="max-w-6xl mx-auto px-6 md:px-12">
+<!-- Header Galería -->
+<div class="flex flex-col md:flex-row md:items-end justify-between mb-16 gap-6">
+<div>
+<span class="text-xs uppercase tracking-[0.3em] text-brand-blue font-semibold block mb-2">Galería &amp; Momentos</span>
+<h2 class="text-3xl md:text-4xl font-light text-brand-ink tracking-tight">La Cultura Mucho Café</h2>
+</div>
+<p class="font-serif italic text-brand-muted text-base max-w-sm">
+            "El ritual del día a día en Oaxaca: buen café, humor cotidiano y la dosis precisa de energía."
+          </p>
+</div>
+<!-- Grid Editorial Armonioso -->
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+<!-- Columna 1 -->
+<div class="space-y-8">
+<figure class="bg-white p-3 border fine-line">
+<div class="overflow-hidden aspect-[4/5] bg-brand-creamSoft">
+<img alt="¿Y si antes de chambear pasas por algo de tomar?" class="w-full h-full object-cover image-editorial" loading="lazy" src="https://lh3.googleusercontent.com/aida-public/AB6AXuC5SCw_M7X436u5VAAizemrUbfffVxqvE6jGk-XAuez3FzW7YuXQ3Nmg7w1UE2pNgMpUdIsqJUj0FKxCUYDuqH0kQjEz_cSnENF2JUWV83B2nriaAF9Q9u_0p_714GHz7oTouwLAJDsm_uXduyBsc3aEi6dAE7_v-GxBiI0wSvTYAt50bYTEWZyLwtajs5XtsilDJkAegQp4KR9YXaZkfVwjL2AB7HzhEg78tKcYGVcffb5AKkFtH4Az6-Wa3Q_9NiEIg"/>
+</div>
+<figcaption class="mt-3 text-center">
+<span class="text-xs font-serif italic text-brand-muted block">¿Y si antes de chambear pasas por algo de tomar?</span>
+</figcaption>
+</figure>
+<figure class="bg-white p-3 border fine-line">
+<div class="overflow-hidden aspect-[4/5] bg-brand-creamSoft">
+<img alt="El match perfecto: cafecito con pan" class="w-full h-full object-cover image-editorial" loading="lazy" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD_LW-T5hmnfVMZHGlso2DQmhPxATTsePXy0xYYSE8BNpdLeJZNt394c_xxV6Yz49LDnxM55OYSfaAPhE6ZxzVb-mkV_SEb0yahUTn2NbXY13ui6q-rkWISqOoR9PxQygO1SsPhNMLCJsBcW8t2RLLm_Xln8Wp2a_8YM7akJdlySQV4htoO6K_DQNf6yB4hg4wCnt4NPg0e6wyc7JUIhmyFkKYBDLHJy1-lD6Ae9AELF67WXdmD71a1grjUJDcncm6L-A"/>
+</div>
+<figcaption class="mt-3 text-center">
+<span class="text-xs font-serif italic text-brand-muted block">El match perfecto — cafecito con pan</span>
+</figcaption>
+</figure>
+</div>
+<!-- Columna 2 -->
+<div class="space-y-8 md:pt-10">
+<figure class="bg-white p-3 border fine-line">
+<div class="overflow-hidden aspect-[4/5] bg-brand-creamSoft">
+<img alt="Iced Coffee Mucho Café" class="w-full h-full object-cover image-editorial" loading="lazy" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAQ2dfIa3VqMAEL3Pmk6QP3-Tl60nktKPu8sIV7E1FujJiY_R9CmauwMCzV4ybLOFjJQMPXsY5UrteBYjZKMptMI8vp0cwu8iUdFCYKqVou4kvgHYRaq8IQANXstRb_oxaJuuTjDrI7GrGiAD06ut2aKhN565tzUQ-USBOBdWR96_xf0q3i_kmXnnPT344CoIGPuI0BAQl1bHfIg46r22-uE72ybjXKoNljQozFP7hw1ocWOE0synwgGi_SYwkjKhaZNA"/>
+</div>
+<figcaption class="mt-3 text-center">
+<span class="text-xs font-serif italic text-brand-muted block">Iced coffee energy — frío y listo para llevar</span>
+</figcaption>
+</figure>
+<figure class="bg-white p-3 border fine-line">
+<div class="overflow-hidden aspect-[4/5] bg-brand-creamSoft">
+<img alt="Un mal día no significa una mala vida" class="w-full h-full object-cover image-editorial" loading="lazy" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBFCrOAoF7R-7ZpNuWs0m3ckZZHNT2Hb15_0ux0ebzHa5SWkEXcewS3VGOKadu1BseXtoy1JVzFlT-8mJdHMqefqbDXKDeFvD2sIeG8wzNR6bAnmWPZS4EEDn9K2XlRCottjMpAHRLbiy2UbCyeqVrrB8TSj2jq6WpbB2GmMTZX2J9EXxFllNIshk0O0MxgAS1-uknL8C9otgVnHqLMU1boKzOt8pnbybvY_hghnhkC7FEJlLlAXqh0rDFvjgemXy90pQ"/>
+</div>
+<figcaption class="mt-3 text-center">
+<span class="text-xs font-serif italic text-brand-muted block">Un mal día no significa una mala vida</span>
+</figcaption>
+</figure>
+</div>
+<!-- Columna 3 -->
+<div class="space-y-8">
+<figure class="bg-white p-3 border fine-line">
+<div class="overflow-hidden aspect-[4/5] bg-brand-creamSoft">
+<img alt="El cargador del día" class="w-full h-full object-cover image-editorial" loading="lazy" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDzhjoNmSBYjpdUINeB54SL5NZ-5xm5LS5HVRj5Hc0hV_wVh4WzoJHoxczSN6ulntc9ZGx_XUzMaRCTUUxQaxfqgy3UpIG7B-GvLbRW7gOLiTGPbiMwQHe9ZRUg9DFfnjwjUA4aP19tEkLTYpkARoSwvpJmR1HmZZuhjpTTvDcIxnCtMOBXLAomXYi9pV7uqIzS8BnqtqurPYlOvxIUuhITthGBwsOtw4c7uNGfmQZsIXSUFw88ueENQtO_PqZnNJZcuw"/>
+</div>
+<figcaption class="mt-3 text-center">
+<span class="text-xs font-serif italic text-brand-muted block">El cargador oficial para tu turno</span>
+</figcaption>
+</figure>
+<figure class="bg-white p-3 border fine-line">
+<div class="overflow-hidden aspect-[4/5] bg-brand-creamSoft">
+<img alt="Esta rana es verde, si la ves azul necesitas Mucho Café" class="w-full h-full object-cover image-editorial" loading="lazy" src="https://lh3.googleusercontent.com/aida-public/AB6AXuARM9islF8-nQ0ulRhWNIqScqCT2a3UTgZkK0sJksD_ZJtpXCHNsVgMQDc6UxlsLAFt3ch90v5kGs8xlgr3xibrgFNP7ISLlGECgcymhSeQ4dhil6gHwdNrN769qJk_ds2-GjSyVu-k49i2JOJ_pCX3Wfx4_cZT6v5BmdyWh0__DVPod3g-Mrwv4jWojGn9a2PvyClpRlciJJjto-rW-j_fJmbe7Kk65LTHc6ftFkZiyfuNl1_na6Mh35Hl5g5OU0sgKg"/>
+</div>
+<figcaption class="mt-3 text-center">
+<span class="text-xs font-serif italic text-brand-muted block">Si la ves azul, necesitas Mucho Café</span>
+</figcaption>
+</figure>
+</div>
+</div>
+<div class="mt-12 text-center">
+<a class="text-xs uppercase tracking-[0.2em] font-medium text-brand-blue hover:text-brand-darkBlue transition-colors" href="https://instagram.com/muchocafemx" rel="noopener noreferrer" target="_blank">
+            Síguenos en Instagram @muchocafemx →
+          </a>
+</div>
+</div>
+</section>
+<!-- END: Minimal Gallery & Brand Collage -->
+<!-- BEGIN: Refined Recognition / Ranking -->
+<section class="py-20 md:py-28 border-b fine-line bg-brand-surface" id="reconocimiento">
+<div class="max-w-5xl mx-auto px-6 md:px-12">
+<div class="grid grid-cols-1 md:grid-cols-12 gap-12 items-center">
+<div class="md:col-span-7 space-y-6">
+<span class="text-xs uppercase tracking-[0.3em] text-brand-blue font-semibold block">Reconocimiento Local</span>
+<h2 class="text-2xl sm:text-3xl md:text-4xl font-light text-brand-ink leading-snug">
+              Posición <span class="font-bold text-brand-blue">#3</span> en la guía <br class="hidden sm:inline"/>My Coffee Ranking vs. Google
+            </h2>
+<blockquote class="font-serif italic text-lg md:text-xl text-brand-ink/80 border-l-2 border-brand-blue pl-5 py-1">
+              “Muy buen café. En el espresso tonic tienen una de las mejores propuestas de Oaxaca.”
+            </blockquote>
+<p class="text-xs text-brand-muted uppercase tracking-wider font-medium">
+              Veredicto de Guí Que Comer Oaxaca • Calificación 5.0 ★
+            </p>
+<div class="pt-4 border-t fine-line text-xs text-brand-muted space-y-1 font-light">
+<p>• Espacio pet friendly y adaptado para trabajo remoto o lectura tranquila.</p>
+<p>• Aceptamos pagos con tarjetas de crédito/débito y dispositivos NFC.</p>
+</div>
+</div>
+<div class="md:col-span-5 flex justify-center">
+<div class="bg-brand-cream p-3 border fine-line max-w-xs shadow-sm">
+<img alt="My Coffee Ranking vs Google Oaxaca - Mucho Café puesto 3" class="w-full h-auto block" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAAb4_F45moJd3xXu6HRuIfeanng2Wdzu9kQlgoAYWQ86nsin-PmOk3FDEfbjbqkjnUIHB6mD1gsS7YpXlaeNUbzxz9uQmAQI0cYfpGV-0midZWlHFIDXqKXCLiCOtCXkYimRfALh_PYc5xgoQ3My7VHSr8eyL_TC_zDZ6ZIBegFOtO3PYtY66jbIslxp-hi20V5o3ioBy4XIvpVnUu7Y7Qbn5lrPyrkB01XdBMFV8k-pMam1Su1eeW7nxi-u9soCWeGw"/>
+<p class="text-[10px] text-center text-brand-muted uppercase tracking-widest mt-2">
+                Guía oficial Guí Que Comer Oaxaca
+              </p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- END: Refined Recognition / Ranking -->
+<!-- BEGIN: Location Section (Starring Pedestrian Map) -->
+<section class="py-24 md:py-32 bg-brand-cream" id="ubicacion">
+<div class="max-w-6xl mx-auto px-6 md:px-12">
+<div class="text-center max-w-xl mx-auto mb-16 space-y-3">
+<span class="text-xs uppercase tracking-[0.3em] text-brand-blue font-semibold block">Visítanos</span>
+<h2 class="text-3xl md:text-4xl font-light text-brand-ink tracking-tight">Cómo llegar a la barra</h2>
+<p class="font-serif italic text-brand-muted text-base">A unos pasos de la Parroquia de Nuestra Señora de La Merced</p>
+</div>
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+<!-- Imagen Estelar del Mapa Peatonal -->
+<div class="lg:col-span-7 flex justify-center">
+<div class="bg-white p-3 md:p-4 border fine-line shadow-[0_15px_35px_-20px_rgba(0,0,0,0.08)] max-w-md w-full">
+<img alt="Croquis peatonal de Mucho Café en Manuel Doblado 202 D, Centro Oaxaca" class="w-full h-auto object-cover block" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCoXKozPDr_cgmr3Xtmeaur7V2GNwTW4t-Pq3b1uwyyZ75GPtM7tAXEoo8d3e6GjXQwlWdGjTg8Yf25u8cHW1iIySAkuBSfKk2_RBztcfetPSPHXVObKlIyCzsDUmJTWG0fbG4D3gs2WeM7EPvaBb5KTRAiqFDTxmxSZ-iWr99Yjlm4sg69kuTCVuY6yCWwmHu7VWGxl3iQ3P1S50d9bcOmg-g3CyzXRneGKpunlAfHfMf_3RdoiRTRm4F_2S84WB6IHg"/>
+<div class="mt-3 flex items-center justify-between text-[11px] text-brand-muted pt-2 border-t fine-line">
+<span class="font-medium text-brand-ink">Manuel Doblado 202D</span>
+<span class="font-serif italic">Entre Vicente Guerrero y Miguel Hidalgo</span>
+</div>
+</div>
+</div>
+<!-- Información Esencial y Sobria -->
+<div class="lg:col-span-5 space-y-8">
+<div class="space-y-2">
+<span class="text-[10px] uppercase tracking-[0.25em] text-brand-muted font-bold block">Dirección</span>
+<p class="text-lg font-medium text-brand-ink">C. De Manuel Doblado 202D</p>
+<p class="text-sm text-brand-muted font-light">Centro, 68000 Oaxaca de Juárez, Oax.</p>
+</div>
+<!-- Horarios limpios -->
+<div class="space-y-3 border-t fine-line pt-6">
+<span class="text-[10px] uppercase tracking-[0.25em] text-brand-muted font-bold block">Horario Semanal</span>
+<div class="space-y-2 text-sm">
+<div class="flex justify-between py-1 border-b fine-line">
+<span class="text-brand-muted font-light">Lunes a Sábado</span>
+<span class="font-semibold text-brand-ink">7:00 AM – 7:00 PM</span>
+</div>
+<div class="flex justify-between py-1">
+<span class="text-brand-muted font-light">Domingo</span>
+<span class="font-semibold text-brand-ink">7:00 AM – 3:00 PM</span>
+</div>
+</div>
+</div>
+<!-- Enlace Único y Refinado -->
+<div class="pt-2">
+<a class="inline-block bg-brand-blue text-white text-xs uppercase tracking-[0.2em] font-semibold px-8 py-4 hover:bg-brand-darkBlue transition-colors w-full sm:w-auto text-center" href="https://maps.google.com/?q=Manuel+Doblado+202D+Centro+Oaxaca" rel="noopener noreferrer" target="_blank">
+                Abrir en Google Maps
+              </a>
+</div>
+<div class="text-xs text-brand-muted pt-2">
+              ¿Pedidos o dudas? Escríbenos directamente al <a class="text-brand-blue font-medium hover:underline" href="https://api.whatsapp.com/send?phone=529514299130" target="_blank">WhatsApp 951 429 9130</a>.
+            </div>
+</div>
+</div>
+</div>
+</section>
+<!-- END: Location Section -->
+</main>
+<!-- BEGIN: Minimal Footer & Sitemap -->
+<footer class="bg-brand-surface border-t fine-line py-16 text-brand-ink">
+<div class="max-w-6xl mx-auto px-6 md:px-12">
+<div class="grid grid-cols-1 md:grid-cols-12 gap-10 pb-12 border-b fine-line">
+<div class="md:col-span-5 space-y-4">
+<div class="flex items-center gap-3">
+<img alt="Mucho Café" class="w-7 h-7 rounded-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCXXOccD7jUcIYlflFi_PtLoUMq1ErzeJpEdGD5EURnxQUonBU8AwYkE2SdVCosIdMu0cFyj4UPCVYQq8qAI6B3TshXl8FON5iADwAKk1We6yyVuEeSVgGp4cwXKeNsf6s-ihtMTs8UcM2-wsxPoax4NRD7I7s7VzvzQWWzDYw-RlI12CtYtokFJd81mRYFTbqGPQ8OiMDyeA2SHGbhnBkY8VH6emi9kHUK7yhe60oCdRRXlM8vsOUFt592jZXV1N9NDA"/>
+<span class="font-extrabold tracking-tight text-base uppercase text-brand-blue">Mucho Café</span>
+</div>
+<p class="font-serif italic text-sm text-brand-muted max-w-sm">
+            "¿Y si antes de chambear pasas por algo de Mucho Café todos los días?"
+          </p>
+<p class="text-xs text-brand-muted font-light">
+            Manuel Doblado 202D, Centro • Oaxaca de Juárez, México.
+          </p>
+</div>
+<div class="md:col-span-7 grid grid-cols-2 sm:grid-cols-3 gap-8 text-xs">
+<div>
+<span class="text-[10px] uppercase tracking-[0.2em] font-bold text-brand-muted block mb-3">Carta</span>
+<ul class="space-y-2 text-brand-muted font-light">
+<li><a class="hover:text-brand-blue transition-colors" href="#menu">Espresso &amp; Latte</a></li>
+<li><a class="hover:text-brand-blue transition-colors" href="#menu">Espresso Tonic (5.0★)</a></li>
+<li><a class="hover:text-brand-blue transition-colors" href="#menu">Cold Brew</a></li>
+<li><a class="hover:text-brand-blue transition-colors" href="#menu">Dirtys de Autor</a></li>
+</ul>
+</div>
+<div>
+<span class="text-[10px] uppercase tracking-[0.2em] font-bold text-brand-muted block mb-3">Visita</span>
+<ul class="space-y-2 text-brand-muted font-light">
+<li><a class="hover:text-brand-blue transition-colors" href="#ubicacion">Cómo Llegar</a></li>
+<li><a class="hover:text-brand-blue transition-colors" href="#galeria">Galería</a></li>
+<li><a class="hover:text-brand-blue transition-colors" href="#reconocimiento">Top 3 Oaxaca</a></li>
+<li><span class="text-brand-ink font-medium">Pet Friendly</span></li>
+</ul>
+</div>
+<div>
+<span class="text-[10px] uppercase tracking-[0.2em] font-bold text-brand-muted block mb-3">Contacto</span>
+<ul class="space-y-2 text-brand-muted font-light">
+<li><a class="hover:text-brand-blue transition-colors" href="https://instagram.com/muchocafemx" target="_blank">@muchocafemx</a></li>
+<li><a class="hover:text-brand-blue transition-colors" href="https://api.whatsapp.com/send?phone=529514299130" target="_blank">WhatsApp Directo</a></li>
+<li><a class="hover:text-brand-blue transition-colors" href="tel:9514299130">Tel. 951 429 9130</a></li>
+</ul>
+</div>
+</div>
+</div>
+<div class="pt-8 flex flex-col sm:flex-row items-center justify-between text-[11px] text-brand-muted gap-4">
+<p>© <span id="year">2026</span> Mucho Café Oaxaca. Todos los derechos reservados.</p>
+<p class="font-serif italic">Café de especialidad en el Centro de Oaxaca</p>
+</div>
+</div>
+</footer>
+<!-- END: Minimal Footer & Sitemap -->
+<script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body></html>
